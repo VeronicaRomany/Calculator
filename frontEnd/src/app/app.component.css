@@ -1,0 +1,35 @@
+    div{
+        width : 400px;
+        height : 460px;
+        margin: auto;
+        margin-top: 200px;
+        
+        
+    }
+    button{
+        background-color:white;
+        color: black;
+        width : 100px;
+        height : 60px;
+        float :left;
+        border-radius : 2px ;
+        border :1px solid rgb(189, 185, 185);
+        font: bold 14pt Arial;
+    }
+    textarea{
+        width : 395px;
+        height: 90px;
+        margin : auto;
+        background-color:rgb(202, 196, 196);
+        border :darkgrey;
+        font: bold 14pt Arial;
+        
+    }
+    button.equal{
+        background-color:rgb(135, 135, 245);
+    }
+    button.op{
+        background-color:rgb(245, 243, 243);
+    }
+
+

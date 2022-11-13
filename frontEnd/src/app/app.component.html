@@ -1,0 +1,34 @@
+<div>
+  <textarea id = "show"> {{expression}} </textarea>
+  
+  <br>
+  <button class = "op" type="button" (click)="Action('%')">%</button>
+  <button class = "op" type="button"  (click)="Remove('CE')">CE</button>
+  <button class = "op" type="button" (click)="Remove('C')">C</button>
+  <button class = "op" type="button" (click)="Remove('←')">←</button>
+  <br>
+  <button class = "op" type="button" (click)="Action('over')">1/x</button>
+  <button class = "op" type="button" (click)="Action('power')">x<sup>2</sup></button>
+  <button class = "op" type="button" (click)="Action('root')">&#8730;</button>
+  <button class = "op" type="button" (click)="Screen('/')">&#247;</button>
+  <br>
+  <button type="button" (click)="Screen('7')">7</button>
+  <button type="button " (click)="Screen('8')">8</button>
+  <button type="button" (click)="Screen('9')">9</button>
+  <button class = "op" type="button" (click)="Screen('*')">*</button>
+  <br>
+  <button type="button" (click)="Screen('4')">4</button>
+  <button type="button" (click)="Screen('5')">5</button>
+  <button type="button" (click)="Screen('6')">6</button>
+  <button class = "op" type="button" (click)="Screen('-')">-</button>
+  <br>
+  <button type="button" (click)="Screen('1')">1</button>
+  <button type="button" (click)="Screen('2')">2</button>
+  <button type="button" (click)="Screen('3')">3</button>
+  <button class = "op" type="button" (click)="Screen('+')">+</button>
+  <br>
+  <button type="button" (click)="Viceverse()">±</button>
+  <button type="button" (click)="Screen('0')">0</button>
+  <button type="button" (click)="Screen('.')">.</button>
+  <button class = "equal" type="button" (click)="eval()">=</button>
+</div>
